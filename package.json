@@ -2,7 +2,7 @@
   "name": "gen-jsbmp",
   "version": "1.0.0",
   "description": "a js lib to generate bmp image",
-  "main": "src/index.js",
+  "main": "dist/jsbmp.common.js",
   "scripts": {
     "build": "node build/build.js"
   },
