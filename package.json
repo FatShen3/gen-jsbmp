@@ -1,0 +1,26 @@
+{
+  "name": "gen-jsbmp",
+  "version": "1.0.0",
+  "description": "a js lib to generate bmp image",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "node build/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FatShen3/gen-jsbmp.git"
+  },
+  "keywords": [
+    "js",
+    "bmp"
+  ],
+  "author": "FatShen3",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FatShen3/gen-jsbmp/issues"
+  },
+  "homepage": "https://github.com/FatShen3/gen-jsbmp#readme",
+  "devDependencies": {
+    "rollup": "^0.56.5"
+  }
+}
