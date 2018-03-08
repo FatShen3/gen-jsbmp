@@ -42,10 +42,10 @@ var canvas = document.createElement('canvas')
 var img = new Image()
 img.src = 'test.png'
 img.onload = function () {
-canvas.width = img.width, canvas.height = img.height
-var ctx = canvas.getContext('2d')
-ctx.drawImage(img, 0, 0)
-depthArr.forEach(function(depth) {
+	canvas.width = img.width, canvas.height = img.height
+	var ctx = canvas.getContext('2d')
+	ctx.drawImage(img, 0, 0)
+	depthArr.forEach(function(depth) {
 	  var img = new Image()
 	  document.body.appendChild(img)
 	  img.src = jsbmp(canvas, depth)
