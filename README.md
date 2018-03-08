@@ -40,7 +40,7 @@ var bmp_base64 = jsmap(canvas, depth)
 var depthArr = [1, 2, 4, 8, 16, 24, 32]
 var canvas = document.createElement('canvas')
 var img = new Image()
-img.src = base64
+img.src = 'test.png'
 img.onload = function () {
 canvas.width = img.width, canvas.height = img.height
 var ctx = canvas.getContext('2d')
